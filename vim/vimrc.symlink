@@ -11,6 +11,10 @@ Plugin 'benmills/vimux'
 Plugin 'tpope/vim-fugitive' " the ultimate git helper
 Plugin 'tpope/vim-commentary' " comment/uncomment lines with gcc or gc in visual mode
 Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'scrooloose/syntastic' "linting  
+Plugin 'jiangmiao/auto-pairs' "MANY features, but mostly closes ([{' etc
+Plugin 'tpope/vim-surround' "easily surround things...just read docs for info
+Plugin 'vimwiki/vimwiki' " notes and diary
 
 call vundle#end()
 filetype plugin indent on
@@ -69,6 +73,7 @@ set background=dark
 colorscheme delek
 
 set number
+set relativenumber " relative line number"
 
 set autoindent " automatically set indent of new line
 set smartindent
